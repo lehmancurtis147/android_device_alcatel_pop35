@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ## Build and run dtbtool
-DTBTOOL := $(HOST_OUT_EXECUTABLES)/dtbTool.alcatel.msm8909$(HOST_EXECUTABLE_SUFFIX)
+DTBTOOL := $(HOST_OUT_EXECUTABLES)/dtbTool.coolpad.msm8909$(HOST_EXECUTABLE_SUFFIX)
 INSTALLED_DTIMAGE_TARGET := $(PRODUCT_OUT)/dt.img
 
 ifeq ($(TARGET_NEEDS_V3_DTB_IMAGE),true)

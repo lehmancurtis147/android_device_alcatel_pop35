@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := pop35
+PRODUCT_RELEASE_NAME := cp3622a
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
@@ -28,11 +28,11 @@ PRODUCT_PACKAGES += \
 	charger
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := pop35
-PRODUCT_NAME := omni_pop35
-PRODUCT_BRAND := Alcatel
-PRODUCT_MODEL := 5065D
-PRODUCT_MANUFACTURER := TCL
+PRODUCT_DEVICE := cp3622a
+PRODUCT_NAME := omni_cp3622a
+PRODUCT_BRAND := Coolpad
+PRODUCT_MODEL := 3622a
+PRODUCT_MANUFACTURER := Coolpad
 
-PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
+PRODUCT_AAPT_CONFIG := normal mdpi xhdpi
+PRODUCT_AAPT_PREF_CONFIG := mdpi
